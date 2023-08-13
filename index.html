@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/395d8b81db.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Application</title>
+  </head>
+  <body>
+    <div class="mainbox">
+        <div class="box">
+            <div class="wave wave-one"></div>
+            <div class="wave wave-two"></div>
+            <div class="wave wave-three"></div>
+            <div id="weathercon">
+              <i class="ph ph-snowflake"></i>
+              <i class="ph ph-cloud-sun"></i>
+              <i class="ph ph-thermometer-cold"></i>
+            </div>
+
+            <div class="searchWeather">
+                <input id="cityWeather" type="text">
+                <button id="SubBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="info">
+              <h2 class="location"><i class="fas fa-street-view"></i><span id="cityName" class="location"></span></h2>
+              <p id="date"></p>
+              <h1 id="temp"></h1>
+              <h3 id="tempmin_max"></h3>
+            </div>
+          </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html> 
