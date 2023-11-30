@@ -163,6 +163,32 @@ html{
         width: 90vw;
         height: 80vh;
     }
+    .searchWeather{
+        /* border: 1px solid black; */
+        margin-top: 20px;
+    }
+
+}
+@media (max-width:844px){
+    .box{
+        width: 90vw;
+        height: 80vh;
+    }
+    .searchWeather{
+        /* border: 1px solid black; */
+        margin-top: 60px;
+    }
+
+}
+@media (max-width:915px){
+    .box{
+        width: 90vw;
+        height: 80vh;
+    }
+    .searchWeather{
+        /* border: 1px solid black; */
+        margin-top: 100px;
+    }
 
 }
 .searchWeather{
